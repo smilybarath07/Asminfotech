@@ -14,7 +14,7 @@ import Logo from './assets/nav/Logo.png'
 import Img6 from './assets/home/img-1.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import  { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { HiOutlineSignal } from "react-icons/hi2";
 import { FaSignal } from "react-icons/fa6";
 import { LuUsers } from "react-icons/lu";
@@ -64,51 +64,53 @@ export default function Home() {
 
                 {/* ----------------------home-row-4------------------ */}
                 <div className='home-row-2-3'>
-                    <div className='box-1'>
-                        <div className='box-1-1'>
-                            <div><HiOutlineSignal /></div>
-                            <h3><span># </span>Visibility</h3>
+                    <div className='home-row-2-3-1'>
+                        <div className='box-1'>
+                            <div className='box-1-1'>
+                                <div><HiOutlineSignal /></div>
+                                <h3><span># </span>Visibility</h3>
+                            </div>
+
+                            <div className='box-1-2'>
+                                <h1>Boost your visibility and reputation</h1>
+                                <h4>Increase your market awareness and effectively stand out from your competitors.</h4>
+                            </div>
                         </div>
 
-                        <div className='box-1-2'>
-                            <h1>Boost your visibility and reputation</h1>
-                            <h4>Increase your market awareness and effectively stand out from your competitors.</h4>
-                        </div>
-                    </div>
+                        <div className='box-2'>
+                            <div className='box-2-1'>
+                                <div><FaSignal /></div>
+                                <h3><span># </span>Growth</h3>
+                            </div>
 
-                    <div className='box-2'>
-                        <div className='box-2-1'>
-                            <div><FaSignal /></div>
-                            <h3><span># </span>Growth</h3>
-                        </div>
-
-                        <div className='box-2-2'>
-                            <h1>Win customers & improve profitability</h1>
-                            <h4>Attract leads and increase your results with targeted digital advertising strategies.</h4>
-                        </div>
-                    </div>
-
-                    <div className='box-3'>
-                        <div className='box-3-1'>
-                            <div><LuUsers /></div>
-                            <h3><span># </span>Visibility</h3>
+                            <div className='box-2-2'>
+                                <h1>Win customers & improve profitability</h1>
+                                <h4>Attract leads and increase your results with targeted digital advertising strategies.</h4>
+                            </div>
                         </div>
 
-                        <div className='box-3-2'>
-                            <h1>Recruiting the right talent for your team</h1>
-                            <h4>Profile your company as an attractive employer and hire the best team members for your project.</h4>
-                        </div>
-                    </div>
+                        <div className='box-3'>
+                            <div className='box-3-1'>
+                                <div><LuUsers /></div>
+                                <h3><span># </span>Recruiting</h3>
+                            </div>
 
-                    <div className='box-4'>
-                        <div className='box-4-1'>
-                            <div><SiTraefikproxy /></div>
-                            <h3><span># </span>Recruiting</h3>
+                            <div className='box-3-2'>
+                                <h1>Recruiting the right talent for your team</h1>
+                                <h4>Profile your company as an attractive employer and hire the best team members for your project.</h4>
+                            </div>
                         </div>
 
-                        <div className='box-4-2'>
-                            <h1>Optimize your processes & your digital agility</h1>
-                            <h4>Leverage modern tools to optimize your productivity and daily life in the digital age.</h4>
+                        <div className='box-4'>
+                            <div className='box-4-1'>
+                                <div><SiTraefikproxy /></div>
+                                <h3><span># </span>Efficiency</h3>
+                            </div>
+
+                            <div className='box-4-2'>
+                                <h1>Optimize your processes & your digital agility</h1>
+                                <h4>Leverage modern tools to optimize your productivity and daily life in the digital age.</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
