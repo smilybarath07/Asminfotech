@@ -1,0 +1,89 @@
+#career {
+    width: 100%;
+    background-color: white;
+    margin-top: -20px;
+    object-fit: cover;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+/* ----------------------------------Row-1-------------------------------- */
+.career-start {
+    width: 100%;
+    padding: 100px 40px 80px 100px;
+    display: flex;
+    position: sticky;
+    top: 50px;
+}
+
+.career-title {
+    width: 50%;
+}
+
+.career-title h1 {
+    font-size: 100px;
+    color: #555555;
+    margin-top: 50px;
+}
+
+.career-title h3 {
+    font-size: 40px;
+    color: #807f7f;
+    margin-top: 30px;
+}
+
+.career-text {
+    width: 50%;
+    margin-top: 200px;
+}
+
+.career-text h4 {
+    font-size: 30px;
+    color: #727272;
+}
+
+
+/* ----------------------------------Row-2-------------------------------- */
+
+.career-center {
+    width: 100%;
+    background-color: rgb(4, 4, 17);
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    padding: 100px 20px 100px 100px;
+    color: white;
+}
+
+.career-details {
+    margin-top: 50px;
+}
+
+.career-center h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #e6e6e6;
+}
+
+.career-center p {
+    font-size: 30px;
+    font-weight: 700;
+    color: #b3b3b3;
+    margin-top: 20px;
+}
+
+.career-center h4 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.career-center h4 span {
+    padding: 0px 0px 0px 15px;
+}
+
+.career-center p a {
+    margin-left: 60px;
+    padding-top: 30px;
+    font-size: 25px;
+}

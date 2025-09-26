@@ -1,0 +1,132 @@
+#projects {
+    width: 100%;
+    background-color: white;
+    margin-top: -20px;
+    object-fit: cover;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+/* ----------------------------------Row-1-------------------------------- */
+.projects-start {
+    width: 100%;
+    padding: 100px 40px 80px 100px;
+    display: flex;
+    position: sticky;
+    top: 50px;
+}
+
+.projects-title {
+    width: 50%;
+}
+
+.projects-title h1 {
+    font-size: 100px;
+    color: #555555;
+    margin-left: -50px;
+}
+
+.projects-title h3 {
+    font-size: 40px;
+    color: #807f7f;
+    margin-top: 50px;
+}
+
+.projects-text {
+    width: 50%;
+    margin-top: 150px;
+}
+
+.projects-text h4 {
+    font-size: 30px;
+    color: #727272;
+}
+
+
+/* ----------------------------------Row-2-------------------------------- */
+
+.projects-center {
+    width: 100%;
+    background-color: rgb(4, 4, 17);
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    padding: 100px 20px 100px 20px;
+    color: white;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-center-card-1 {
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid rgb(17, 104, 175);
+    cursor: pointer;
+    padding: 0px 0px 10px 2px ;
+}
+
+.projects-center-card-1 h4 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(94, 93, 93);
+}
+.projects-center-card-1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 5px rgb(189, 189, 189);
+}
+.projects-center-card-1:hover .arrow-1{
+    transform-origin: 0% 0%;
+    transform: rotate(45deg);
+}
+.projects-center-card-1-1{
+    display: flex;
+    margin-left: 80px;
+    justify-content:space-between;
+}
+.arrow-2{
+    font-size: 40px;
+    color: black;
+    margin-left: -50px;
+}
+.arrow-1{
+    font-size: 40px;
+    color: black;
+}
+
+
+/* ----------------------------------Row-3-------------------------------- */
+.projects-end {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    z-index: 5;
+    padding: 100px 0px 50px 100px;
+}
+
+.projects-end-title {
+    width: 90%;
+    height: 300px;
+    background-color: rgb(24, 24, 53);
+    margin-left: 40px;
+    border-radius: 50px;
+    display: flex;
+}
+
+.projects-end-title-text {
+    width: 70%;
+    padding: 50px 0px 0px 50px;
+    color: rgb(212, 212, 212);
+}
+
+.projects-end-title-text h1 {
+    color: white;
+    margin-top: 80px;
+}

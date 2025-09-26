@@ -1,0 +1,141 @@
+.footer {
+    width: 100%;
+    background-color: rgb(4, 4, 17) !important;
+    color: #cdcdcd;
+    padding: 0px 30px 30px 30px;
+    overflow: hidden;
+    margin-top: 190px ; 
+    box-shadow: 0px 5px 25px 5px rgb(150, 148, 148);
+    border-radius: 50px;
+    position: sticky;
+    bottom: 10px;
+    z-index: 0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    margin-top: 100px;
+    cursor: pointer;
+    margin-left: -20px;
+}
+
+.footer-about h1 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.footer-service h1 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.footer-reach h1 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+.footer-reach p {
+    margin-left: -20px;
+}
+
+.footer-contact h1 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.footer-contact p {
+    margin-left: 30px;
+}
+.toggle-inside-right6 {
+    margin: -150px 0px 0px 80%;
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+    top: 20PX;
+}
+.toggle-inside-right6 h3 {
+    font-size: 20px;
+}
+.custom-button{
+    margin: 30px 0px 0px -10px;
+    border: 2px solid #78b8dd;
+    padding: 0px 20px;
+    border-radius: 5px;
+    cursor: pointer !important;
+    height: 55px;
+    border-radius: 30px;
+    width: 250px;
+}
+.custom-button:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255) !important;
+    transform: scale(1.1);
+    transition: all 0.8s ease-in-out;
+    border: 2px solid #6eb5f0;
+}
+.btn{
+    font-size: 23px !important;
+    margin-left: -10px;
+    color: #f1efef !important;
+    position: relative;
+}
+.btn p {
+    font-size: 40px !important;
+    color: #f1efef !important;
+    position: absolute;
+    top: -10px;
+    right: -70px;
+}
+.btn:hover P{
+    transform-origin: 0% 0%;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -15PX;
+}
+.footer-bottom {
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 800px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+}
+.pre-footer {
+    margin-left: 35%;
+    margin-top: -20px;
+}
+.toggle-inside-right7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative; 
+    top: -10px;
+    gap: 14px;
+    left: 0px;
+}
+.toggle-inside-right7 div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    color: #f1efef;
+    border: 2px solid #78b8dd;
+}
+.toggle-inside-right7 div:hover{
+    background-color: #ffffff;
+    color: black;
+    transform: scale(1.2);
+    transition: all 0.8s ease-in-out;
+    border: 2px solid #6eb5f0;
+}

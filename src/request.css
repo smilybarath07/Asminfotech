@@ -1,0 +1,64 @@
+#request {
+    width: 100%;
+    background-color: white;
+    margin-top: -20px;
+    object-fit: cover;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+/* ----------------------------------Row-1-------------------------------- */
+.request-start {
+    width: 100%;
+    padding: 150px 40px 100px 100px;
+    position: sticky;
+    top: 50px;
+}
+
+.request-title h1 {
+    font-size: 100px;
+    color: #555555;
+    margin-left: -50px;
+}
+
+/* ----------------------------------Row-2-------------------------------- */
+
+.request-center {
+    width: 100%;
+    background-color: rgb(243, 243, 245);
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    padding: 100px 0px 100px 100px;
+}
+
+/* ----------------------------------Row-3-------------------------------- */
+.request-end {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    z-index: 5;
+    padding: 100px 0px 50px 100px;
+}
+
+.request-end-title {
+    width: 90%;
+    height: 300px;
+    background-color: rgb(24, 24, 53);
+    margin-left: 40px;
+    border-radius: 50px;
+    display: flex;
+}
+
+.request-end-title-text {
+    width: 70%;
+    padding: 50px 0px 0px 50px;
+    color: rgb(212, 212, 212);
+}
+
+.request-end-title-text h1 {
+    color: white;
+    margin-top: 80px;
+}

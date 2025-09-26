@@ -1,0 +1,17 @@
+.counter-box {
+  text-align: center;
+  margin: 50px;
+  font-family: 'Arial', sans-serif;
+}
+
+.counter-box h2 {
+  font-size: 80px;
+  color: #ebebeb;
+  margin-bottom: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.counter-box p {
+  font-size: 25px;
+  color: #dad6d6;
+}

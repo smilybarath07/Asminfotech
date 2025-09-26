@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 0.8s ease-in-out;
+}
+
+body {
+    background-color: rgb(4, 4, 17) !important;
+    width: 100% !important;
+    height: 100vh !important;
+    color: #cdcdcd;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+}

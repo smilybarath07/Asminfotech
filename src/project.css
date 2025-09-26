@@ -1,0 +1,514 @@
+#project {
+    width: 100%;
+    background-color: white;
+    margin-top: -20px;
+    padding-bottom: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+/* ---------------Row-1------------ */
+
+.project-title {
+    width: 100%;
+    position: sticky;
+    top: 10px;
+}
+
+.project-title h1 {
+    font-size: 80px;
+    color: #000000;
+    padding-top: 170px;
+    margin-left: 50px;
+}
+
+.project-title h3 {
+    font-size: 40px;
+    color: #575757;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.project-title-line {
+    display: flex;
+}
+
+.project-title-line-1 {
+    height: 250px;
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 20px;
+    animation: moving alternate-reverse 2s infinite linear;
+    margin-top: 20px;
+}
+
+.project-title-line-1 img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.project-title-line-2 {
+    height: 400px;
+    width: 500px;
+    margin-left: 100px;
+    border-radius: 20px;
+    animation: moving1 2s infinite linear;
+    margin-top: 20px;
+}
+
+@keyframes moving1 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.project-title-line-2 video {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}
+
+.project-title-line-3 {
+    height: 400px;
+    width: 350px;
+    margin-left: 40px;
+    border-radius: 20px;
+    position: relative;
+    top: -300px;
+    animation: moving 2s infinite linear;
+}
+
+@keyframes moving {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(-20px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.project-title-line-3 img {
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}
+
+
+
+
+
+.project-end {
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    padding: 180px 30px 0px 30px;
+}
+
+.project-end-left {
+    width: 50%;
+    padding: 10px 40px 0px 30px;
+}
+
+.project-end-left h1 {
+    font-size: 30px;
+    color: #757575;
+    margin-top: 30px;
+    position: sticky;
+    top: 20%;
+    z-index: -1;
+}
+
+.project-end-left h4 {
+    font-size: 35px;
+    margin-top: 30px;
+    color: #3f3f3f;
+    position: sticky;
+    top: 30%;
+    z-index: -1;
+}
+
+.project-end-left p {
+    font-size: 33px;
+    margin-top: 20px;
+    color: #353535;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 60%;
+    z-index: -1;
+}
+.project-end-left div{
+    width: 100%;
+    height: 500px;
+    position: sticky;
+    top: 90%;
+    z-index: 1;
+    background-color: white;
+}
+
+.project-end-right {
+    width: 50%;
+}
+
+.project-end-right-card-1 {
+    width: 100%;
+}
+
+.project-end-right-card-1-1 {
+    width: 100%;
+    height: 500px;
+    box-shadow: 10px 10px 10px 10px rgb(150, 148, 148);
+    border-radius: 50px;
+}
+.project-end-right-card-1 h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.project-end-right-card-1 p{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #757575;
+    font-weight: 500;
+}
+.project-end-right-card-1-1 img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.project-end-right-card-2 {
+    width: 100%;
+}
+
+.project-end-right-card-2-1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px rgb(150, 148, 148);
+}
+.project-end-right-card-2 h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.project-end-right-card-2 p{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #757575;
+    font-weight: 500;
+}
+
+.project-end-right-card-2-1 img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.project-end-right-card-3 {
+    width: 100%;
+}
+
+.project-end-right-card-3-1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px rgb(150, 148, 148);
+}
+.project-end-right-card-3 h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.project-end-right-card-3 p{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #757575;
+    font-weight: 500;
+}
+
+.project-end-right-card-3-1 img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.project-end-right-card-4 {
+    width: 100%;
+}
+
+.project-end-right-card-4-1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px rgb(150, 148, 148);
+}
+.project-end-right-card-4 h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.project-end-right-card-4 p{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #757575;
+    font-weight: 500;
+}
+.project-end-right-card-4-1 img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.project-end-right-card-5 {
+    width: 100%;
+}
+
+.project-end-right-card-5-1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px rgb(150, 148, 148);
+}
+.project-end-right-card-5 h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.project-end-right-card-5 p{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #757575;
+    font-weight: 500;
+}
+.project-end-right-card-5-1 img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.project-end-right-card-6 {
+    width: 100%;
+}
+
+.project-end-right-card-6-1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px rgb(150, 148, 148);
+}
+.project-end-right-card-6 h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.project-end-right-card-6 p{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #757575;
+    font-weight: 500;
+}
+.project-end-right-card-6-1 img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.project-end-right-card-7 {
+    width: 100%;
+}
+
+.project-end-right-card-7-1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px rgb(150, 148, 148);
+}
+.project-end-right-card-7 h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.project-end-right-card-7 p{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #757575;
+    font-weight: 500;
+}
+.project-end-right-card-7-1 img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.project-end-right-card-8 {
+    width: 100%;
+}
+
+.project-end-right-card-8-1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px rgb(150, 148, 148);
+}
+.project-end-right-card-8 h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.project-end-right-card-8 p{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #757575;
+    font-weight: 500;
+}
+
+.project-end-right-card-8-1 img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.project-end-right-card-9 {
+    width: 100%;
+}
+
+.project-end-right-card-9-1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px rgb(150, 148, 148);
+}
+.project-end-right-card-9 h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.project-end-right-card-9 p{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #757575;
+    font-weight: 500;
+}
+
+.project-end-right-card-9-1 img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.project-end-right-card-10 {
+    width: 100%;
+}
+
+.project-end-right-card-10-1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px rgb(150, 148, 148);
+}
+.project-end-right-card-10 h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.project-end-right-card-10 p{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #757575;
+    font-weight: 500;
+}
+.project-end-right-card-10-1 img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.project-end-right-card-11 {
+    width: 100%;
+}
+
+.project-end-right-card-11-1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px rgb(150, 148, 148);
+}
+.project-end-right-card-11 h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.project-end-right-card-11 p{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #757575;
+    font-weight: 500;
+}
+.project-end-right-card-11-1 img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.project-end-right-card-12 {
+    width: 100%;
+}
+
+.project-end-right-card-12-1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px rgb(150, 148, 148);
+}
+.project-end-right-card-12 h2{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.project-end-right-card-12 p{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #757575;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.project-end-right-card-12-1 img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
